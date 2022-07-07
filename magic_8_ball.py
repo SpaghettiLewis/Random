@@ -22,10 +22,26 @@ def answer_generator():
     answer_number = random.randint(0, 20)
     answer = possible_answers[answer_number]
     print(answer)
+    time.sleep(4)
+    go_again()
+
+def go_again():
+    response = input("Would you like to play again? ")
+    if response == "Yes" or response == "yes" or response == "y" or response == "Y":
+        print("Okay then...")
+        time.sleep(3)
+        answer_generator()
+    elif response == "No" or response == "no" or response == "n" or response == "N":
+        print("Well it was fun playing...")
+        time.sleep(2)
+        print("Goodbye {}"
+        .format(user_name))
+    else:
+        print("I'm sorry could you repeat that again?")
+        time.sleep(3)
+        go_again()
 
 print("Well hello there {}"
 .format(user_name))
-
 time.sleep(2)
-
 answer_generator()
