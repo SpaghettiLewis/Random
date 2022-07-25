@@ -1,12 +1,12 @@
 import random
 import time
 
-print("  __  __          _____ _____ _____    ___ ")
-print(" |  \/  |  /\   / ____|_   _/ ____|  / _ \ ")
+print("  __  __          _____ _____ _____   ___ ")
+print(" |  \/  |  /\   / ____|_   _/ ____|  / _ \")
 print(" | \  / | /  \ | |  __  | || |      | (_) |") #<-- not mine
-print(" | |\/| |/ /\ \| | |_ | | || |       > _ < ")
+print(" | |\/| |/ /\ \| | |_ | | || |       > _ <")
 print(" | |  | | ____ \ |__| |_| || |____  | (_) |")
-print(" |_|  |_//    \_\_____|_____\_____|  \___/ ")
+print(" |_|  |_//    \_\_____|_____\_____|  \___/")
 print("")
 
 possible_answers = ("It is certain", "It is decidedly so", "Without a doubt", "Yes definitely", "You may rely on it", "As I see it, yes", "Most likely", "Outlook good", "Yes Signs point to yes", "Reply hazy", "Try again", "Ask again later", "Better not tell you that", "Cannot predict now", "Concentrate and ask again", "Dont count on it", "My reply is no", "My sources say no", "Outlook not so good", "Very doubtful")
