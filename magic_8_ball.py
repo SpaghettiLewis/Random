@@ -2,7 +2,7 @@ import random
 import time
 
 print("  __  __          _____ _____ _____   ___ ")
-print(" |  \/  |  /\   / ____|_   _/ ____|  / _ \")
+print(" |  \/  |  /\   / ____|_   _/ ____|  / _ \ ")
 print(" | \  / | /  \ | |  __  | || |      | (_) |") #<-- not mine
 print(" | |\/| |/ /\ \| | |_ | | || |       > _ <")
 print(" | |  | | ____ \ |__| |_| || |____  | (_) |")
@@ -34,14 +34,12 @@ def go_again():
     elif response == "No" or response == "no" or response == "n" or response == "N":
         print("Well it was fun playing...")
         time.sleep(2)
-        print("Goodbye {}"
-        .format(user_name))
+        print("Goodbye {}".format(user_name))
     else:
         print("I'm sorry could you repeat that again?")
         time.sleep(3)
         go_again()
 
-print("Well hello there {}"
-.format(user_name))
+print("Well hello there {}".format(user_name))
 time.sleep(2)
 answer_generator()
